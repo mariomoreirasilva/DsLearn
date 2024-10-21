@@ -25,3 +25,6 @@ INSERT INTO tb_resource(title, description, position, img_Uri, type, offer_id) V
 INSERT INTO TB_SECTION(title, description, position, img_Uri, resource_id, preriquisite_id) VALUES('Capítulo 1', 'Este capitulo vamos começar',1 , 'https://www.femerj.org.br/wp-content/uploads/2024/06/image-from-rawpixel-id-5913662-jpeg-1-930x620.jpg', 1, null);
 INSERT INTO TB_SECTION(title, description, position, img_Uri, resource_id, preriquisite_id) VALUES('Capítulo 2', 'Este capitulo vamos continuar',2 , 'https://www.femerj.org.br/wp-content/uploads/2024/06/image-from-rawpixel-id-5913662-jpeg-1-930x620.jpg', 1, null);
 INSERT INTO TB_SECTION(title, description, position, img_Uri, resource_id, preriquisite_id) VALUES('Capítulo 3', 'Este capitulo vamos terminar',3 , 'https://www.femerj.org.br/wp-content/uploads/2024/06/image-from-rawpixel-id-5913662-jpeg-1-930x620.jpg', 1, null);
+
+INSERT INTO tb_enrollment(user_id, offer_id, enroll_Moment, refund_Moment, avaliable, only_Update) VALUES(1, 1, TIMESTAMP WITH TIME ZONE '2020-07-13T13:00:00Z', null, true, false);
+INSERT INTO tb_enrollment(user_id, offer_id, enroll_Moment, refund_Moment, avaliable, only_Update) VALUES(2, 1, TIMESTAMP WITH TIME ZONE '2020-07-13T13:00:00Z', null, true, false);
